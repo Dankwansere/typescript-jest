@@ -1,0 +1,30 @@
+{
+  "name": "typescript-jest",
+  "version": "1.0.0",
+  "description": "testing jest with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dankwansere/typescript-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dankwansere/typescript-jest/issues"
+  },
+  "homepage": "https://github.com/Dankwansere/typescript-jest#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "jest": "^25.5.3",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
